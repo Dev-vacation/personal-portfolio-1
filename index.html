@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="tailwind.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;0,800;1,300;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-body text-white font-poppins pb-12">
+    <header class="py-6">
+      <div
+        class="container flex justify-between items-center mx-auto px-6 md:px-12 lg:px-20 w-full"
+      >
+        <div class="text-lg font-bold">Jonatham.Lee</div>
+        <div class="hidden md:flex md:space-x-6 space-x-12 items-center">
+          <a href="#" class="text-selected-text">Home</a>
+          <a href="#work">My works</a>
+          <a href="#clients">Clients</a>
+          <a href="#hire"
+            ><button class="px-6 py-2 bg-theme font-bold">Hire me</button></a
+          >
+        </div>
+        <div class="md:hidden">
+          <svg
+            width="26"
+            height="18"
+            viewBox="0 0 26 18"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M13 17.5H0.25V14.6667H13V17.5ZM25.75 10.4167H0.25V7.58333H25.75V10.4167ZM25.75 3.33333H13V0.5H25.75V3.33333Z"
+              fill="white"
+            ></path>
+          </svg>
+        </div>
+      </div>
+    </header>
+
+    <div
+      class="container mt-16 flex justify-between items-center mx-auto px-6 md:px-12 lg:px-20 w-full"
+    >
+      <div class="flex flex-wrap md:flex-nowrap">
+        <!-- nav -->
+        <nav
+          class="sm:inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block"
+        >
+          <div
+            class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36 md:mt-16"
+          >
+            <a
+              href="#"
+              class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body"
+            >
+              <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+                >Home</span
+              >
+            </a>
+            <a
+              href="#work"
+              class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+            >
+              <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+                >Work</span
+              >
+            </a>
+            <a
+              href="#clients"
+              class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+            >
+              <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+                >Clients</span
+              >
+            </a>
+            <a
+              href="#hire"
+              class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+            >
+              <span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+                >Hire</span
+              >
+            </a>
+          </div>
+        </nav>
+        <!--  -->
+        <div
+          class="flex flex-wrap lg:ml-20 justify-center md:justify-start max-w-xl mt-0 md:my-36"
+        >
+          <h1
+            class="font-bold text-4xl md:text-6xl lg:text-7xl text-center md:text-left"
+          >
+            Building <br />
+            beautiful web experience.
+          </h1>
+          <div class="w-full flex justify-center md:justify-start">
+            <button
+              class="px-8 py-4 bg-theme text-white font-bold mt-12 flex items-center space-x-3"
+            >
+              <div>
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="22"
+                  height="22"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  stroke="#fff"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                >
+                  <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"></path>
+                  <circle cx="12" cy="12" r="3"></circle>
+                </svg>
+              </div>
+              <span>My work.</span>
+            </button>
+          </div>
+        </div>
+        <!-- image -->
+        <img
+          src="/image/man.png"
+          alt="Man"
+          class="w-3/4 mt-12 md:absolute md:mt-0 right-0 -z-1"
+        />
+      </div>
+    </div>
+
+    <!-- My work -->
+    <div
+      class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+    >
+      <section class="w-full">
+        <h2 id="work" class="secondary-title">My Work</h2>
+        <p class="section-paragraph">
+          I've had the pleasure of working with multiple fortune
+        </p>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mt-6">
+          <img
+            src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&q=80&w=1472&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&q=80&w=1472&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1516542076529-1ea3854896f2?auto=format&fit=crop&q=80&w=1471&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1448932223592-d1fc686e76ea?auto=format&fit=crop&q=80&w=1469&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1455894127589-22f75500213a?auto=format&fit=crop&q=80&w=1387&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1589652717406-1c69efaf1ff8?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+          <img
+            src="https://images.unsplash.com/photo-1562408590-e32931084e23?auto=format&fit=crop&q=80&w=1470&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+            alt=""
+          />
+        </div>
+      </section>
+    </div>
+
+    <!-- clients -->
+    <div
+    class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+    >
+      <section class="w-full">
+        <h2 id="clients" class="secondary-title">Clients</h2>
+        <p class="section-paragraph">
+          I've had the pleasure of working with multiple fortune
+        </p>
+
+        <!-- clients part -->
+        <div class="space-y-12 my-16">
+          <div
+            class="w-full border border-nav p-16 lg:px-32 lg:py-20 lg:space-x-32 flex justify-center"
+          >
+            <!-- clients logo -->
+            <div class="mb-6 lg:mb-0">
+              <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0,0,256,256">
+                <g fill="#ffffff" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><g transform="scale(5.12,5.12)"><path d="M44.52734,34.75c-1.07812,2.39453 -1.59766,3.46484 -2.98437,5.57813c-1.94141,2.95313 -4.67969,6.64063 -8.0625,6.66406c-3.01172,0.02734 -3.78906,-1.96484 -7.87891,-1.92969c-4.08594,0.01953 -4.9375,1.96875 -7.95312,1.9375c-3.38672,-0.03125 -5.97656,-3.35156 -7.91797,-6.30078c-5.42969,-8.26953 -6.00391,-17.96484 -2.64844,-23.12109c2.375,-3.65625 6.12891,-5.80469 9.65625,-5.80469c3.59375,0 5.85156,1.97266 8.82031,1.97266c2.88281,0 4.63672,-1.97656 8.79297,-1.97656c3.14063,0 6.46094,1.71094 8.83594,4.66406c-7.76562,4.25781 -6.50391,15.34766 1.33984,18.31641zM31.19531,8.46875c1.51172,-1.94141 2.66016,-4.67969 2.24219,-7.46875c-2.46484,0.16797 -5.34766,1.74219 -7.03125,3.78125c-1.52734,1.85938 -2.79297,4.61719 -2.30078,7.28516c2.69141,0.08594 5.47656,-1.51953 7.08984,-3.59766z"></path></g></g>
+                </svg>
+            </div>
+            <!-- clients info -->
+            <div class="flex flex-wrap justify-center text-center lg:text-left lg:block">
+              <h3 class="text-white text-3xl font-semibold">Apple, Inc.</h3>
+              <div class="w-full lg:w-auto flex flex-wrap justify-center lg:justify-start gap-3 mt-6 mb-8">
+                  <div class="badge">UX / UI</div>
+                  <div class="badge">Fontend Delveloper</div>
+              </div>
+              <p class="text-secondary">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Neque sequi soluta, ipsa ex pariatur vel possimus labore perferendis ab iste!</p>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+      </section>
+    </div>
+
+    <!-- hire me -->
+    <div class="container mt-64 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full">
+      
+      <section class="w-full">
+        <h2 id="hire" class="secondary-title">Hire me.</h2>
+        <p class="section-paragraph">
+          I've had the pleasure of working with multiple fortune
+        </p>
+        <!-- Form -->
+        <div class="w-full grid lg:grid-cols-2 gap-8 lg:gap-32 mt-24">
+          <div class="space-y-12">
+            <!-- name -->
+            <div>
+              <label for="" class="text-white block mb-6 text-xl font-bold">Name</label>
+              <input type="text" class="w-full border border-input-border bg-input px-4 py-4">
+            </div>
+            <!-- email -->
+            <div>
+              <label for="" class="text-white block mb-6 text-xl font-bold">Email</label>
+              <input type="email" class="w-full border border-input-border bg-input px-4 py-4">
+            </div>
+            <!-- message -->
+            <div>
+              <label for="" class="text-white block mb-6 text-xl font-bold">Name</label>
+              <textarea name="" id="" cols="30" rows="10" class="w-full border border-input-border bg-input px-4 py-4"></textarea>
+            </div>
+            <!-- sent it -->
+            <button class="px-6 py-2 bg-theme text-white font-bold">Send it!</button>
+          </div>
+
+          <div class="mt-12">
+            <!-- contazt info -->
+            <p class="text-secondary">081-919-0902</p>
+            <a href="#" class="text-secondary underline">itthipong.lee@gmail.com</a>
+            <!-- social -->
+            <div class="flex mt-20 space-x-6">
+              <a href=""></a>
+              <a href=""></a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+    <script src="/main.js"></script>
+  </body>
+</html>
